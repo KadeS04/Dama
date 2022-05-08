@@ -4,8 +4,7 @@ import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { HelloComponent } from './hello.component';
-
+import { TopBarComponent } from './top-bar/top-bar.component';
 
 @NgModule({
   imports:      [ 
@@ -14,7 +13,7 @@ import { HelloComponent } from './hello.component';
   ],
   declarations: [ 
     AppComponent, 
-    HelloComponent
+    TopBarComponent
   ],
   bootstrap:    [ 
     AppComponent 
