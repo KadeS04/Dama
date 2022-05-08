@@ -66,6 +66,7 @@ label {
 }
 
 /* Button */
+
 .button, button {
   display: inline-flex;
   align-items: center;
