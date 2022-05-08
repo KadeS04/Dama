@@ -20,7 +20,7 @@ router-outlet + * {
 /* Text */
 
 h1 {
-  font-size: 32px;
+  font-size: 20px;
 }
 
 h2 {
