@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
+import { WebDataComponent } from './web-data/web-data.component';
 
 @NgModule({
   imports:      [ 
@@ -13,7 +14,8 @@ import { TopBarComponent } from './top-bar/top-bar.component';
   ],
   declarations: [ 
     AppComponent, 
-    TopBarComponent
+    TopBarComponent,
+    WebDataComponent
   ],
   bootstrap:    [ 
     AppComponent 
