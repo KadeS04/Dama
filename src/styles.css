@@ -117,4 +117,5 @@ app-top-bar {
 app-top-bar h1 {
   color: black;
   margin: 0;
+  font-weight: bold;
 }
