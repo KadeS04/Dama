@@ -6,9 +6,7 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
-import { WebDataComponent } from './web-data/web-data.component';
 import { ConfigService } from './config/config.service';
-
 @NgModule({
   imports:      [ 
     BrowserModule, 
@@ -18,7 +16,6 @@ import { ConfigService } from './config/config.service';
   declarations: [ 
     AppComponent, 
     TopBarComponent,
-    WebDataComponent,
   ],
   bootstrap:    [ 
     AppComponent, 
